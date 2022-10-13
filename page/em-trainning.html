@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trainning</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Quicksand:wght@300;400;500;700&display=swap");
+    </style>
+    <script type="module" defer>
+      import {
+        headerTem,
+        footerTem,
+        renderGoal,
+        signupTem,
+        renderList,
+        trainningTem,
+        renderBanner,
+      } from "../js/Template.js";
+      var arr = [
+        {
+          title: "Năm 2022",
+          content:
+            "Phối hợp: Hội Liên Hiệp Phụ Nữ Tỉnh\nQuy mô: 14 tỉnh/ thành phố\n\HOẠT ĐỘNG:\nTuyên truyền, Tập huấn, Lựa chọn.\nThẩm định, Chọn lọc & Kết nối đầu tư.\nXây dựng tiêu chí, Thẩm định, Chọn lọc. \nKêu gọi & Kết nối đầu tư ( hoạt động, chương trình & các dự án tham gia).",
+        },
+        {
+          title: "Năm 2023",
+          content:
+            "Phối hợp: Hội Liên Hiệp Phụ Nữ Tỉnh\nQuy mô: Toàn quốc\nHOẠT ĐỘNG:\nTuyên truyền, Tập huấn, Lựa chọn (TW Hội)\nThẩm định, Chọn lọc & Kết nối đầu tư (PDA).\nXây dựng tiêu chí, Thẩm định, Chọn lọc.\nKêu gọi & Kết nối đầu tư ( hoạt động, chương trình & các dự án tham gia).",
+        },
+      ];
+
+      document.querySelector(".header").innerHTML = headerTem;
+      document.querySelector(".footer").innerHTML = footerTem;
+      renderGoal("goal", "Mục tiêu", "../images/goals/goal-innovation.png");
+      renderBanner("EM-TRAINING", "Đào tạo");
+      document.querySelector(".trainning").innerHTML = trainningTem;
+      document.querySelector(".signup").innerHTML = signupTem;
+    </script>
+
+    <link rel="stylesheet" href="../css/Default.css" />
+    <link rel="stylesheet" href="../css/components.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+  </head>
+  <body>
+    <div class="header"></div>
+    <div class="page-container mwidth">
+      <section class="banner-wrapper"></section>
+      <div class="goal"></div>
+      <div class="img-wrap">
+        <img src="" alt="" />
+      </div>
+      <div class="trainning"></div>
+      <div class="signup"></div>
+    </div>
+    <footer class="footer">
+    </footer>
+  </body>
+</html>

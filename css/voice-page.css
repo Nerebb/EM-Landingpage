@@ -1,0 +1,42 @@
+.voice-page .success-women { 
+  margin-top: 100px;
+  width: 100%;
+}
+
+.voice-page .success-women > * {
+  font-size: var(--font-size-big-title);
+  text-align: center;
+}
+
+
+.voice-page .success-women h1 {
+  text-transform: capitalize;
+}
+
+.voice-page .success-women h2 {
+  text-transform: uppercase;
+  color: white;
+
+}
+
+.voice-page .success-women-img {
+  display: flex;
+  margin-top: 72px;
+  justify-content: space-between;
+}
+
+.voice-page .success-women-img img{
+  width: 30%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+@media screen and (max-width: 1367px) {
+.voice-page .success-women-img-wrap {
+  overflow-x: scroll;
+}
+.voice-page .success-women-img {
+  width: 1000px;
+}
+}

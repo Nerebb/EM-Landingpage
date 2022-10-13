@@ -1,0 +1,559 @@
+/* -------------Responsive-------------- */
+
+@media screen and (max-width: 1367px) {
+  :root {
+    --font-size-menu: 14px;
+    --font-size-small-title: 26px;
+  }
+  .mwidth {
+    max-width: 900px;
+  }
+
+  .banner .nav-btn {
+    width: 40%;
+    height: 57px;
+    margin-top: 18px;
+  }
+
+  .banner-bg-img {
+    right: -60px;
+  }
+
+  .banner-info {
+    margin-top: 50px;
+  }
+
+  .banner-info-left .bg-img {
+    width: 120px;
+    height: 150px;
+  }
+
+  .banner-info-right div {
+    width: 150px;
+    height: 200px;
+  }
+
+  .em-powerWoman {
+    padding-top: 8vw;
+  }
+
+  .em-Inspi-sumary {
+    padding: 2%;
+  }
+
+  .em-Inspi-info {
+    margin: auto;
+    width: 85%;
+  }
+  .em-Inspi-info > img {
+    margin: auto;
+    width: 90%;
+  }
+
+  .em-Inspi-sumary {
+    margin: auto;
+    width: 90%;
+  }
+
+  .em-Inspi-sumary p:last-child {
+    margin-top: 2%;
+  }
+
+  .em-Operator-info-wrapper {
+    height: 260px;
+  }
+
+  .em-powerWoman-partner {
+    padding-top: 0;
+  }
+
+  .em-Partner-sumary .img-Wrapper {
+    height: 75px;
+  }
+
+  .em-Partner-sumary h1 {
+    text-align: center;
+    height: 70px;
+    padding: 15px 5px;
+  }
+
+  .em-powerWoman-events {
+    height: 950px;
+  }
+
+  .em-powerWoman-quotes > img:first-child,
+  .em-powerWoman-quotes > img:last-child {
+    width: 140px;
+    height: 140px;
+  }
+
+  .quotes-Container {
+    height: 310px;
+  }
+
+  /* --------------------------------------Activities Page--------------------------------------------- */
+  .section-title {
+    margin-top: 80px;
+  }
+
+  .em-Finance-totalImg {
+    width: 100%;
+    height: 175px;
+  }
+
+  .em-Tech.imgWrapper {
+    height: 260px;
+  }
+
+  .em-Ambassador.imgWrapper {
+    height: 260px;
+  }
+
+  .em-Partner.imgWrapper {
+    height: 180px;
+  }
+
+/* --------------------------------------W1367 em-innovation--------------------------------------------- */
+
+  .banner-EM-title .em-ventures-join.btn {
+    width: 32%;
+  }
+}
+@media screen and (max-width: 991px) {
+  :root {
+    --font-size-menu: 12px;
+    --font-size-normal-text: 14px;
+    --font-size-big-menu: 20px;
+    --font-size-small-title: 26px;
+    --font-size-medium-title: 34px;
+    --font-size-big-title: 40px;
+  }
+
+  .mwidth {
+    max-width: 700px;
+    padding: 0 50px;
+  }
+
+  .banner-info {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .banner-info-left {
+    margin-bottom: 20px;
+  }
+
+  .banner-info-left .bg-img {
+    width: 150px;
+    height: 180px;
+  }
+
+  .banner-bg-img {
+    right: -20px;
+    opacity: 0.8;
+  }
+
+  .banner .nav-btn {
+    width: 50%;
+    height: 40px;
+  }
+
+  .nav-list .nav-item {
+    width: 49%;
+  }
+
+  .nav-list .nav-description {
+    line-height: 18px;
+  }
+
+  .em-powerWoman-title h1 {
+    margin-top: 8px;
+    margin-bottom: 16px;
+    line-height: 30px;
+  }
+
+  .em-powerWoman-title {
+    margin-bottom: 6vw;
+  }
+
+  .em-powerWoman-about {
+    width: 95%;
+    height: 15vw;
+  }
+
+  .em-Vision-tiltleImg-wrapper {
+    margin: auto;
+    width: 80vw;
+    height: 75vw;
+  }
+
+  .em-Vision-sumary {
+    width: 90%;
+  }
+
+  .em-Vision-text .img-Wrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+  }
+
+  .em-powerWoman-Vision p {
+    font-size: 20px;
+  }
+
+  .em-Vision-info .nav-btn {
+    padding-top: 5%;
+  }
+
+  .em-Vision-info .nav-btn {
+    margin: auto;
+  }
+
+  .em-powerWoman-partner {
+    display: none;
+  }
+
+  .em-powerWoman-partner-w991 {
+    display: block;
+  }
+
+  .em-Finance.imgWrapper {
+    width: 49%;
+    height: 220px;
+    margin-bottom: 30px;
+  }
+
+  .em-Partner-sumary .img-Wrapper {
+    height: 60px;
+    border-radius: 12px;
+  }
+
+  .em-Operator-info-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+  }
+
+  .em-Operator-info {
+    width: 1200px;
+  }
+
+  .em-Operator-sumary > img {
+    display: none;
+  }
+
+  .em-Partner-sumary h1 {
+    height: 80px;
+  }
+
+  .em-powerWoman-events {
+    height: 750px;
+  }
+
+  .quotes-Container {
+    height: 300px;
+  }
+
+  /* --------------------------------------W991 Activities Page--------------------------------------------- */
+  .em-Finance-totalImg {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .em-Tech.imgWrapper {
+    height: 220px;
+  }
+
+  .em-Ambassador.imgWrapper {
+    height: 220px;
+  }
+
+  .em-Parter-totalImg {
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  .em-Partner.imgWrapper {
+    height: 180px;
+    width: 49%;
+  }
+
+  .em-Partner.imgWrapper.visibility {
+    display: none;
+  }
+
+   /* --------------------------------------W991 em-innovation--------------------------------------------- */
+
+
+  .imgslider .slide-title {
+    font-size: var(--font-size-normal-menu)16px;
+  }
+
+  .banner-info-left .banner-title {
+    margin: 18px 0;
+  }
+
+}
+@media screen and (max-width: 769px) {
+  :root {
+    --font-size-normal-text: 12.5px;
+    --font-size-small-title: 22px;
+    --font-size-medium-title: 24px;
+
+  }
+
+  .idea .swiper-button-prev,
+  .idea .swiper-button-next {
+    display: none;
+  }
+
+
+  .banner {
+    width: 510px;
+    margin: auto;
+  }
+
+  .banner .nav-btn {
+    width: 70%;
+    margin-top: 30px;
+    
+  }
+
+  .banner-bg-img {
+    width: 100%;
+    height: 50%;
+    right: 0;
+    background-position: right bottom;
+  }
+
+
+
+  .banner-EM-title .em-ventures-join.btn {
+    width: 40%;
+    height: 50px;
+  }
+
+  .nav-list {
+    justify-content: center;
+  }
+
+  .nav-list .nav-item {
+    width: 90%;
+  }
+
+  .em-Partner-sumary .govermentText {
+    margin-left: 3%;
+  }
+
+  .em-Partner-sumary h1 {
+    padding: 10px 5px;
+  }
+
+  .em-Partner-sumary .img-Wrapper {
+    height: 50px;
+    border-radius: 8px;
+  }
+
+  .event-Wrapper .event-text {
+    padding-left: 18px;
+    height: 35px;
+  }
+
+  .em-powerWoman-events {
+    height: 100%;
+  }
+
+  .em-Events-sumary .event-Wrapper {
+    border-radius: 12px;
+    margin-bottom: 8px;
+  }
+
+  .em-powerWoman-about {
+    display: none;
+  }
+
+  .signup-wrap {
+    margin: 80px 0;
+  }
+
+  /* --------------------------W737 Activities Page---------------------- */
+  .h1-title {
+    line-height: 70px;
+  }
+
+  .em-powerWoman-Finance h1 br.visibility {
+    display: block;
+  }
+
+  .em-Finance-totalImg {
+    margin-top: 20px;
+  }
+
+  .em-Finance.imgWrapper {
+    height: 180px;
+  }
+
+  .em-Tech.imgWrapper {
+    height: 180px;
+  }
+
+  .em-Ambassador-totalImg {
+    flex-direction: column;
+  }
+
+  .em-Ambassador.imgWrapper {
+    height: 180px;
+  }
+
+
+/* --------------------------W769 em-innovation---------------------- */
+
+  /* BANNER */
+
+
+  .idea .swiper-button-next {
+    top: 40%;
+    right: 40px;
+  }
+  
+  .idea .swiper-button-prev {
+    top: 40%;
+    left: 40px;
+  }
+
+  .banner-EM-title .em-ventures-join.btn {
+    width: 36%;
+  }
+
+}
+
+@media screen and (max-width: 491px) {
+  .mwidth {
+    max-width: 350px;
+    padding: 0 0;
+  }
+  
+  .banner-info-left .banner-img,
+  .banner-info-right {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .banner-bg-img {
+    height: 45%;
+  }
+  
+  .banner {
+    width: 100%;
+  }
+
+  
+  .banner-info-left .banner-img,
+  .banner-info-right {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .banner-bg-img {
+    height: 45%;
+  }
+  
+  .banner > p {
+    width: 100%;
+  }
+
+  .banner-info-left {
+    margin-bottom: 0px;
+  }
+
+  .banner-info-left .banner-title {
+    margin-bottom: 25px;
+  }
+
+
+
+
+  .operator .swiper-button-next {
+    height: 40px;
+    width: 40px;
+    right: -15px;
+  }
+
+  .operator .swiper-button-prev {
+    height: 40px;
+    width: 40px;
+    left: -15px;
+  }
+
+
+
+  .banner-info-left .bg-img,
+  .banner-info-right div {
+    margin-bottom: 30px;
+    margin-right: 0px;
+  }
+
+  .em-powerWoman-events-title h1 {
+    margin: auto;
+    width: 275px;
+  }
+
+  .em-powerWoman-events-title {
+    padding: 20px;
+  }
+
+  .em-Events-sumary {
+    flex-wrap: wrap;
+  }
+
+  .endPage {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  /* --------------------------W479 Activities Page---------------------- */
+  :root {
+    --font-size-big-title: 26px;
+    --font-size-exceptional-title: 48px;
+  }
+  .em-Partner.imgWrapper {
+    width: 49%;
+  }
+  .em-Partner.imgWrapper.visibility {
+    display: none;
+  }
+
+  .em-Parter-totalImg {
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .em-Partner.imgWrapper {
+    height: 180px;
+    width: 49%;
+  }
+
+  .em-Finance.imgWrapper {
+    width: 85%;
+  }
+
+  .em-Tech.imgWrapper {
+    width: 85%;
+  }
+
+  .em-Ambassador.imgWrapper {
+    width: 85%;
+  }
+
+  .em-Partner.imgWrapper {
+    width: 85%;
+  }
+
+  .em-powerWoman-events {
+    margin-bottom: 30px;
+  }
+}
