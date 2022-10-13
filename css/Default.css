@@ -8,6 +8,10 @@
   user-select: none; /* Standard syntax */
 }
 
+body {
+  height: 100vh;
+}
+
 a {
   text-decoration: none;
 }

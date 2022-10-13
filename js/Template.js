@@ -1,6 +1,6 @@
 // -------------------------- HEADER & FOOTER -------------------------------------
 export const headerTem = 
-`       <div class="header-wrap">
+`<div class="header-wrap">
 <div class="header-container mwidth">
   <a href="./home.html" class="logo-wrap">
     <img src="../images/logo.png" alt="">
@@ -9,7 +9,7 @@ export const headerTem =
     <ul class="header-menu-list ">
       <li class="header-menu-item">
         <p>EM-Ventures</p>
-        <ul class="header-submenu-list hide">
+        <ul class="header-submenu-list ">
           <li class="header-submenu-item">
             <a href="./about-us.html"> Về chúng tôi</a>
           </li>
@@ -37,7 +37,7 @@ export const headerTem =
       </li>
       <li class="header-menu-item">
         <p>Hoạt động</p>
-        <ul class="header-submenu-list hide">
+        <ul class="header-submenu-list ">
           <li class="header-submenu-item">
             <a href="./em-trainning.html"> EM-Trainning </a>
           </li>
@@ -68,7 +68,7 @@ export const headerTem =
       </li>
       <li class="header-menu-item">
         <p>Liên kết</p>
-        <ul class="header-submenu-list hide">
+        <ul class="header-submenu-list ">
           <li class="header-submenu-item">
             <a href=""> Liên hệ</a>
           </li>
@@ -98,8 +98,111 @@ export const headerTem =
       <p>tải app</p>
     </button>
   </div>
+  <div class="mobile-menu-icon-wrap hide" >
+    <i class="fa-solid fa-bars mobile-menu-icon" onclick="ShowMobileMenu()"></i>
+    <div class="mobile-menu hide-menu">
+      <ul class="mobile-menu-list mwidth">
+        <li>
+          <div class="mobile-menu-item" id="sub1" onclick="ShowMobileSubMenu(id)">
+            <p >EM-Ventures</p>
+            <i class="fa-sharp fa-solid fa-caret-down"></i>                  
+          </div>
+          <ul class="mobile-submenu-list mobile-hide show-sub1">
+            <li class="mobile-submenu-item">
+              <a href="./about-us.html"> Về chúng tôi</a>
+            </li>
+            <div class="gray-line"></div>
+            <li class="mobile-submenu-item">
+              <a href=""> Tầm nhìn</a>
+            </li>
+            <div class="gray-line"></div>
+            <li class="mobile-submenu-item">
+              <a href=""> Sứ mệnh</a>
+            </li>
+            <div class="gray-line"></div>
+            <li class="mobile-submenu-item">
+              <a href=""> Giá trị cốt lõi</a>
+            </li>
+            <div class="gray-line"></div>
+            <li class="mobile-submenu-item">
+              <a href="./strategic-partner.html"> Đối tác chiến lược</a>
+            </li>
+            <div class="gray-line"></div>
+            <li class="mobile-submenu-item">
+              <a href=""> Ban điều hành</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="mobile-menu-item"  id="sub2" onclick="ShowMobileSubMenu(id)">
+            <p>Hoạt động</p>
+            <i class="fa-sharp fa-solid fa-caret-down"></i>                  
+          </div>
+          <ul class="mobile-submenu-list mobile-hide show-sub2">
+            <li class="mobile-submenu-item">
+              <a href="./em-trainning.html"> EM-Trainning </a>
+            </li>
+            <li class="mobile-submenu-item">
+              <a href="./em-brands.html"> EM-Brands </a>
+            </li>
+            <li class="mobile-submenu-item">
+              <a href="./em-retail.html"> EM-Retail </a>
+            </li>
+            <li class="mobile-submenu-item">
+              <a href="./em-innovation.html"> EM-Innovation </a>
+            </li>
+            <li class="mobile-submenu-item">
+              <a href="./em-voice.html"> EM-Voice </a>
+            </li>
+            <li class="mobile-submenu-item">
+              <a href="./em-payday.html"> EM-Payday </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="mobile-menu-item">
+            <p>Sự kiện</p>
+          </div>
+        </li>
+        <li>
+          <div class="mobile-menu-item"  id="sub3" onclick="ShowMobileSubMenu(id)">
+            <p>Liên kết</p>
+            <i class="fa-sharp fa-solid fa-caret-down"></i>
+          </div>
+          <ul class="mobile-submenu-list mobile-hide show-sub3">
+            <li class="mobile-submenu-item">
+              <a href=""> Liên hệ</a>
+            </li>
+            <div class="gray-line"></div>
+            <li class="mobile-submenu-item">
+              <a href=""> Trở thành Nhà tài trợ</a>
+            </li>
+            <div class="gray-line"></div>
+            <li class="mobile-submenu-item">
+              <a href=""> Trở thành Đại sứ</a>
+            </li>
+            <div class="gray-line"></div>
+            <li class="mobile-submenu-item">
+              <a href=""> Trở thành Thành viên</a>
+            </li>
+            <div class="gray-line"></div>
+            <li class="mobile-submenu-item">
+              <a href=""> Dịch vụ kế nối khác</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="mobile-menu-item">
+            <p>Tài khoản</p>
+
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
-</div>  `
+</div>`
 
 export const footerTem = `
 <footer class="footer-wrap mwidth">
