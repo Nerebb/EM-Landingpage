@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brands</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Quicksand:wght@300;400;500;700&display=swap");
+    </style>
+    <script type="module" defer>
+      import {
+        headerTem,
+        footerTem,
+        renderGoal,
+        brandsTem,
+        signupTem,
+        renderList,
+        renderBanner,
+      } from "../js/Template.js"; 
+      var arr = [
+        {
+          title: "thu nhập",
+          content:
+            "Với mục tiêu hỗ trợ tạo việc làm, tăng thu nhập cho phụ nữ qua mô hình kinh doanh trên toàn quốc.",
+        },
+        {
+          title: "công nghệ",
+          content:
+            "Áp dụng nền tảng số hóa trong hỗ trợ phụ nữ cải thiện, nâng cao chất lượng cuộc sống. Quản trị bằng công nghệ số góp phần thực hiện chuyển đổi số cho phụ nữ.",
+        },
+        {
+          title: "phát triển",
+          content:
+            "Nâng cao năng lực cá nhân, tạo cơ hội việc làm, gia tăng thu nhập cho phụ nữ thông qua hoạt động kết nối với các thương hiệu lớn, uy tín để tham gia đội ngũ kinh doanh với tư cách là “Đại diện thương mại”.",
+        },
+      ];
+
+      document.querySelector(".header").innerHTML = headerTem;
+      document.querySelector(".footer").innerHTML = footerTem;
+      renderGoal("goal", "Mục tiêu", "../images/goals/goal-brands.png");
+      renderList("LỢI ÍCH KHI THAM GIA EM-RETAIL", arr);
+      document.querySelector(".brands").innerHTML = brandsTem;
+      document.querySelector(".signup").innerHTML = signupTem;
+      renderBanner("EM-BRANDS", "Đại diện thương mại");
+    </script>
+
+    <link rel="stylesheet" href="../css/Default.css" />
+    <link rel="stylesheet" href="../css/components.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+  </head>
+  <body>
+    <div class="header"></div>
+    <div class="page-container mwidth">
+      <section class="banner-wrapper">
+      </section>
+      <div class="goal"></div>
+      <div class="benefit"></div>
+      <div class="img-wrap">
+        <img src="" alt="" />
+      </div>
+      <div class="brands"></div>
+      <div class="signup"></div>
+    </div>
+    <footer class="footer">
+    </footer>
+  </body>
+</html>

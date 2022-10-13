@@ -1,0 +1,705 @@
+/* BANNER */
+.banner > h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--font-size-big-menu);
+  line-height: 24px;
+}
+
+.banner > h1 {
+  margin-top: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--font-size-medium-title);
+  line-height: 52px;
+}
+
+.banner > p {
+  text-align: justify;
+
+  width: 445px;
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: var(--font-size-normal-text);
+  line-height: 28px;
+}
+
+.banner .purple-text {
+  color: var(--color-purple);
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.banner .nav-btn {
+  font-size: var(--font-size-menu);
+
+  width: 35%;
+  height: 57px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner .em-ventures-join.btn {
+  text-align: center;
+
+  background-color: var(--color-purple);
+  border-radius: 15px;
+  width: 55%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner .em-ventures-info.btn {
+  text-align: center;
+
+  width: 40%;
+  height: 100%;
+  border: 0.7px solid white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ----------------------em-powerWoman----------------------- */
+.em-powerWoman {
+  padding-top: 12vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.em-powerWoman-title {
+  text-align: center;
+  margin-bottom: 10vw;
+}
+
+.em-powerWoman-title h2 {
+  color: white;
+  font-size: var(--font-size-big-menu);
+  line-height: 24px;
+}
+
+.em-powerWoman-title h1 {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 32px;
+
+  font-size: var(--font-size-big-title);
+  line-height: 56px;
+}
+
+.em-powerWoman-title h3 {
+  color: white;
+  font-size: var(--font-size-normal-text);
+  line-height: 18px;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+.nav-item > img {
+  width: 70%;
+  padding-bottom: 5px;
+  object-fit: contain;
+}
+
+.nav-list .nav-item {
+  background-color: var(--color-dark-purple);
+  border-radius: 20px;
+  margin-bottom: 50px;
+  padding: 20px 0px;
+  width: 30.5%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list .nav-description {
+  color: white;
+  font-weight: 300;
+  font-size: var(--font-size-menu);
+  line-height: 22px;
+  text-align: center;
+
+  width: 90%;
+}
+
+.nav-list .nav-description h1 {
+  font-weight: 700;
+  font-size: inherit;
+  margin: 5px 0px;
+}
+
+.nav-list .nav-moreinfo {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list .nav-moreinfo p {
+  margin-right: 10px;
+}
+
+.nav-logo img {
+  margin-left: 10px;
+  height: 90%;
+  object-fit: contain;
+}
+
+.nav-list .nav-moreinfo p {
+  color: #fb73a3;
+}
+
+.em-powerWoman-about {
+  margin: auto;
+  margin-top: 5vw;
+  background: linear-gradient(
+    40deg,
+    #433369 -45%,
+    #c3bcff00 35%,
+    #c3bcff00 72%,
+    #3d3171 120%
+  );
+  width: 90%;
+  height: 12vw;
+  border-radius: 36px;
+  border: 2.5px solid #252144;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.em-powerWoman .content {
+  text-align: center;
+}
+
+.em-powerWoman .content h1 {
+  font-family: "Michroma";
+  font-size: var(--font-size-medium-title);
+  font-weight: 400;
+  background: linear-gradient(
+    267.74deg,
+    #6359d9 -4.45%,
+    var(--color-purple) 105.31%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.em-powerWoman .content p {
+  color: white;
+  font-weight: 500;
+  font-size: var(--font-size-normal-text);
+}
+/* ----------------------Em-Power-Visions------------------------------ */
+.em-powerWoman-Vision {
+  color: white;
+  text-align: center;
+
+  padding-top: 12vw;
+  margin: auto;
+}
+
+.em-powerWoman-Vision h1,
+.em-powerWoman-Vision h2 {
+  font-size: var(--font-size-medium-title);
+  font-weight: 700;
+}
+
+.em-powerWoman-Vision h2 {
+  margin: 16px 0px;
+}
+
+.em-powerWoman-Vision p {
+  font-size: var(--font-size-normal-text);
+}
+
+.em-Vision-info {
+  padding-top: 6vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.em-Vision-moreinfo {
+  margin-top: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.em-Vision-tiltleImg-wrapper {
+  width: 50%;
+  position: relative;
+}
+
+.em-Vision-tiltleImg-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.em-Vision-sumary {
+  width: 45%;
+  height: 100%;
+  margin: auto;
+}
+
+.em-Vision-text {
+  display: flex;
+}
+
+.em-Vision-sumary div:first-child {
+  margin-bottom: 20px;
+}
+
+.em-Vision-text .img-Wrapper {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(
+    217.93deg,
+    #6359d9 4.06%,
+    var(--color-purple) 100.05%
+  );
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.em-Vision-text .closupText {
+  padding-left: 5%;
+  flex: 1;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.em-Vision-text .closupText p:first-child {
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.em-Vision-text .closupText p:last-child {
+  color: var(--color-dark-gray);
+}
+
+.em-Vision-info .nav-btn {
+  width: 90%;
+  padding-top: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.em-Vision-info .em-ventures-join.btn {
+  color: var(--color-purple);
+
+  width: 45%;
+  height: 60px;
+  border: 0.7px solid var(--color-purple);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.em-Vision-info .em-ventures-info.btn {
+  color: white;
+
+  width: 45%;
+  height: 60px;
+  border: 0.7px solid white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------------------EM-Inpsiraton------------------------------ */
+
+.em-Inspi-title {
+  text-align: center;
+  line-height: 54px;
+  padding: 5%;
+}
+
+.em-Inspi-title h1 {
+  font-size: var(--font-size-medium-title);
+  font-weight: 700;
+  letter-spacing: 0.2px;
+
+  background: linear-gradient(to right, var(--color-purple), #6359d9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.em-Inspi-title h2 {
+  font-size: var(--font-size-medium-title);
+  font-weight: 500;
+  color: white;
+}
+
+.em-Inspi-info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.em-Inspi-info > img {
+  width: 56%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.em-Inspi-sumary {
+  width: 40%;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.em-Inspi-sumary p {
+  color: var(--color-dark-gray);
+  font-weight: 100;
+  font-size: var(--font-size-normal-text);
+}
+
+.em-Inspi-sumary p:last-child {
+  margin-top: 15%;
+}
+
+.em-Inspi-sumary p:last-child span {
+  color: white;
+}
+
+/* ----------------------EM-Operator------------------------------ */
+.operator-container {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.operator-container .title > h1 {
+  color: white;
+  font-weight: bold;
+  font-size: var(--font-size-medium-title);
+  text-align: center;
+  margin-top: 8px;
+  line-height: 120%;
+}
+
+.em-powerWoman-operator {
+  width: 100%;
+}
+
+.em-Operator-title {
+  width: 100%;
+  text-align: center;
+  padding: 5%;
+  letter-spacing: 0.2px;
+}
+
+.em-Operator-title h2 {
+  color: white;
+  font-size: 22px;
+}
+.em-Operator-title h1 {
+  font-size: var(--font-size-medium-title);
+  font-weight: 900;
+}
+
+.em-Operator-sumary {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.em-Operator-sumary > img {
+  width: 3.5%;
+  margin: 1%;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.em-Operator-info-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.em-Operator-info {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.em-Operator-specify {
+  width: 285px;
+  height: 345px;
+  padding: 40px 0px;
+  background-color: var(--color-dark-purple);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.em-Operator-specify > img {
+  background-color: #fff;
+  width: 31%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.em-Operator-text {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.em-Operator-text p {
+  font-weight: 100;
+}
+
+.em-Operator-contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.em-Operator-contact div {
+  width: 30px;
+  height: 30px;
+  margin-left: 12px;
+  border-radius: 50%;
+  border: 0.7px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------------------EM-Parner---------------------------- */
+
+.em-powerWoman-partner {
+  color: white;
+
+  padding-top: 8%;
+}
+
+.em-powerWoman-partner-w991 {
+  display: none;
+}
+
+.em-Partner-title {
+  font-size: var(--font-size-medium-title);
+  font-weight: 500;
+  text-align: center;
+
+  margin: 6% 0 4%;
+}
+
+.em-Partner-sumary h1 {
+  font-size: var(--font-size-normal-text);
+  height: 75px;
+  padding: 20px 5px;
+}
+
+.em-Partner-sumary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.em-Partner-sumary .goverment {
+  flex: 1.2;
+  border-right: 2px solid var(--color-dark-gray);
+}
+
+.em-Partner-sumary .govermentText {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.em-Partner-sumary .goverment h1 {
+  font-size: var(--font-size-small-title);
+}
+
+.em-Partner-sumary .goverment p {
+  color: var(--color-dark-gray);
+  font-size: var(--font-size-menu);
+}
+
+.em-Partner-sumary .goverment img {
+  padding-top: 5%;
+  width: 90%;
+  object-fit: contain;
+}
+
+.em-Partner-sumary .finance {
+  flex: 1;
+}
+
+.em-Partner-sumary .ambassador {
+  flex: 1;
+  border-left: 2px solid var(--color-dark-gray);
+  border-right: 2px solid var(--color-dark-gray);
+}
+
+.em-Partner-sumary .technologies {
+  flex: 1;
+}
+
+.em-Partner-sumary .partnerAlong {
+  flex: 2;
+  border-left: 2px solid var(--color-dark-gray);
+}
+
+.em-Partner-sumary .partnerAlong-totalImg {
+  width: 80%;
+}
+
+.partnerAlong .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.partnerAlong .row .img-Wrapper {
+  width: 48%;
+}
+
+.em-Partner-sumary .img-Wrapper {
+  width: 75%;
+  height: 100px;
+  border-radius: 18px;
+  background: var(--background-PurpleGrad);
+  margin-bottom: 5%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.em-Partner-sumary .img-Wrapper img {
+  width: 75%;
+  height: 65%;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* ----------------------EM-EVENTS------------------------------ */
+
+.em-powerWoman-events {
+  width: 100%;
+  height: 1250px;
+}
+
+.em-powerWoman-events-title {
+  width: 100%;
+  height: 15%;
+  padding-top: 3%;
+  text-align: center;
+}
+
+.em-powerWoman-events-title h2 {
+  color: white;
+  font-size: var(--font-size-normal-text);
+  font-weight: 300;
+}
+.em-powerWoman-events-title h1 {
+  font-size: var(--font-size-medium-title);
+  font-weight: 700;
+}
+
+.em-Events-sumary {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 2%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.em-Events-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.em-Events-sumary .event-Wrapper {
+  width: 99%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.event-Wrapper img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.event-Wrapper .event-text {
+  color: white;
+  font-size: var(--font-size-normal-text);
+  padding-left: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  width: 100%;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #450095;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.em-Events-info {
+  color: var(--color-purple);
+  font-size: var(--font-size-normal-text);
+  font-weight: 700;
+
+  margin: auto;
+  padding: 6px 32px;
+  border-radius: 20px;
+  border: 1px solid #450095;
+  width: 183px;
+  height: 57px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.em-powerWoman-partner-w769 {
+  display: none;
+}

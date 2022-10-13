@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --color-purple: #B147F8;
+  --color-dark-purple: #292452;
+  --color-dark-gray: #7D7D7D;
+  --color-light-gray: #C6C6C6;
+  --color-dark-btn: #221f3a;
+
+  --font-size-menu: 16px;
+  --font-size-normal-menu: 20px;
+  --font-size-big-menu: 24px;
+  --font-size-normal-text: 18px;
+  --font-size-small-title: 32px;
+  --font-size-medium-title: 40px;
+  --font-size-big-title: 56px;
+  --font-size-exceptional-title: 64px;
+
+  --background-PurpleGrad: linear-gradient(25deg, #672c87 0%, #2d2e79 100%);
+  --title-purple: linear-gradient(88.43deg, #B147F8 -8.49%, #6359D9 106.97%);
+  
+  --btn-width: 140px;
+  --btn-height: 40px;
+  --patern-square-edge:: 160px;
+  --bg-circle: 300px;
+}
+
+.mwidth {
+  max-width: 1200px;
+  margin:auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.purpleGrad {
+  background: linear-gradient(to right, #b147f8, #6359d9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backWard {
+  transform: scaleX(-1);
+}
+
+body {
+  background: linear-gradient(180deg, #9c68ff 0%, rgba(34, 31, 58, 1) 100%);
+  background-color: rgba(34, 31, 58, 1);
+  background-repeat: no-repeat;
+  font-family: "Quicksand";
+  height: 100vh;
+}
+
+.h1-title {
+  font-size: var(--font-size-exceptional-title);
+  font-weight: 700;
+  line-height: 100px;
+}
+
+.h2-title {
+  color: white;
+  font-size: var(--font-size-big-title);
+  font-weight: 200;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.flexWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgWrapper {
+  border-radius: 18px;
+  background: linear-gradient(25deg, #672c87 0%, #2d2e79 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgWrapper img {
+  width: 75%;
+  height: 65%;
+  object-fit: contain;
+}
+
+.hide {
+  display: none;
+}
+
+.hoverPurple:hover {
+  background: linear-gradient(126.21deg, #6A35EE 0%, #9930EF 14.24%, #5737EE 49.56%, #795CEB 93.2%);
+  filter: brightness(110%);
+  cursor: pointer;
+}
+
+.hoverBrightness:hover {
+  filter: brightness(120%);
+  cursor: pointer;
+}
+
+button:hover {
+  filter:brightness(120%);
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: inset 0px 0px 8px 4px rgba(0,0,0,0.35);
+}

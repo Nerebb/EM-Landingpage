@@ -1,0 +1,149 @@
+.idea {
+  margin-top: 80px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.idea-title {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.idea-title h1 {
+  padding-top: 120px;
+  padding-bottom: 36px;
+  font-size: var(--font-size-big-title);
+}
+
+.idea-title p {
+  font-weight: 700;
+  font-size: var(--font-size-medium-title);
+
+}
+
+.imgslider-container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.imgslider {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.imgslider .slide-item {
+  width: 414px;
+  height: auto;
+}
+
+.imgslider .slide-img {
+  width: 100%;
+  border-radius: 20px;
+  position: relative;
+}
+
+.imgslider .slide-img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 20px;
+}
+.imgslider .slide-img p {
+  opacity: 0;
+  font-size: var(--font-size-big-menu);
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.imgslider .slide-img p:hover {
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff99;
+}
+
+.imgslider .idea-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgslider .slide-title {
+  font-size: var(--font-size-normal-menu);
+  color: white;
+  text-align: center;
+
+  margin-top: 35px;
+  padding: 25px 5px;
+  border: 1px solid white;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ----------------------------NEXT-PREV-------------------------- */
+.Prev-Next-container {
+  position: relative;
+}
+
+.idea .btn::after {
+  content: "";
+}
+
+.idea .btn {
+  height: 48px;
+  width: 48px;
+  background-color: white;
+  border-radius: 100%;
+  z-index: 2;
+  position: absolute;
+}
+
+.idea .btn i {
+  color: black;
+  font-size: 24px;
+}
+
+.idea .swiper-button-next {
+  top: 40%;
+  right: -66px;
+}
+
+.idea .swiper-button-prev {
+  top: 40%;
+  left: -66px;
+}
+
+/* @media screen and (max-width: 1366) {
+  .imgslider .slide-img {
+    height: 357px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .imgslider .slide-img {
+    height: 235px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .idea .swiper-button-next,
+  .idea .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+  }
+
+  .idea .swiper-button-next {
+    right: -15px;
+  }
+} */
