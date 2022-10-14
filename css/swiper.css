@@ -124,76 +124,13 @@
 
 .operator .operator-contact-icon i {
   height: auto;
-  size: 20;
   color: white;
 }
 
-.idea {
-  margin-top: 80px;
-  width: 100%;
-  height: 100%;
-  position: relative;
+.operator .swiper-slide {
+  height: 345px;
 }
 
-.idea-title {
-  width: 100%;
-  text-align: center;
-  color: white;
-  font-size: var(--font-size-medium-title);
-}
 
-.idea-title h1 {
-  padding-top: 160px;
-  padding-bottom: 36px;
-}
 
-.idea-title p {
-  font-weight: 700;
-}
 
-.imgSlider-container {
-  width: 100%;
-}
-
-.imgSlider {
-  width: 100%;
-  padding: 50px 0;
-}
-
-.imgSlider .idea-img {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.imgSlider .idea-img p {
-  /* display:none; */
-  font-size: var(--font-size-big-menu);
-}
-
-.imgSlider .idea-img img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
-.imgSlider .slider-img {
-  width: 415px;
-  height: 340px;
-  flex-direction: column;
-}
-
-.imgSlider .idea-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.imgSlider .slide-title {
-  font-size: var(--font-size-big-menu);
-  color: white;
-
-  margin-top: 35px;
-  padding: 25px 5px;
-  border: 1px solid white;
-}

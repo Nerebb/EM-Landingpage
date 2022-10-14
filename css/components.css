@@ -39,6 +39,7 @@
 
 .header-content-wrap {
   display: flex;
+  align-items: center;
 }
 
 .header-menu-list {
@@ -159,6 +160,7 @@
 }
 /* -----------------BANNER-HOME----------------- */
 .banner {
+  text-align: left;
   width: 100%;
   color: white;
   margin-top: 16px;

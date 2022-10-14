@@ -30,6 +30,15 @@
     width: 150px;
     height: 200px;
   }
+  .nav-list {
+    padding: 0 40px;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .nav-list .nav-item {
+    padding: 40px;
+  }
 
   .banner .em-ventures-join.btn {
     padding: 15px 10px;
@@ -37,10 +46,6 @@
 
   .banner .em-ventures-info.btn {
     padding: 15px 38px;
-  }
-
-  .em-powerWoman {
-    padding-top: 8vw;
   }
 
   .em-Inspi-sumary {
@@ -83,18 +88,10 @@
     padding: 15px 5px;
   }
 
-  .em-powerWoman-events {
-    height: 950px;
-  }
-
   .em-powerWoman-quotes > img:first-child,
   .em-powerWoman-quotes > img:last-child {
     width: 140px;
     height: 140px;
-  }
-
-  .quotes-Container {
-    height: 310px;
   }
 
   /* --------------------------------------Activities Page--------------------------------------------- */
@@ -135,6 +132,14 @@
     --font-size-big-title: 40px;
   }
 
+  .nav-list {
+    padding: 0;
+  }
+
+  .nav-list .nav-item {
+    padding: 40px 14px;
+  }
+
   .mwidth {
     max-width: 700px;
     padding: 0 50px;
@@ -162,10 +167,6 @@
 
   .banner .nav-btn {
     height: 40px;
-  }
-
-  .nav-list .nav-item {
-    width: 49%;
   }
 
   .nav-list .nav-description {
@@ -202,7 +203,7 @@
   }
 
   .em-Vision-sumary {
-    width: 90%;
+    width: 100%;
   }
 
   .em-Vision-text .img-Wrapper {
@@ -260,10 +261,6 @@
     height: 80px;
   }
 
-  .em-powerWoman-events {
-    height: 750px;
-  }
-
   .quotes-Container {
     height: 300px;
   }
@@ -316,6 +313,10 @@
     --font-size-medium-title: 24px;
   }
 
+  .mwidth {
+    max-width: 500px;
+  }
+
   .idea .swiper-button-prev,
   .idea .swiper-button-next {
     display: none;
@@ -348,11 +349,9 @@
   }
 
   .nav-list {
-    justify-content: center;
-  }
-
-  .nav-list .nav-item {
-    width: 90%;
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+    padding: 0 120px;
   }
 
   .em-Partner-sumary .govermentText {
@@ -450,6 +449,11 @@
     max-width: 350px;
     padding: 0 0;
   }
+
+  .section-title {
+    margin-top: 50px;
+  }
+
   .banner .em-ventures-join.btn,
   .banner .em-ventures-info.btn {
     padding: 10px 20px;
@@ -489,6 +493,29 @@
     height: 198px;
   }
 
+  .banner-info-left .bg-img > p {
+    font-size: 18px;
+    bottom: 5%;
+  }
+
+  .em-Vision-info .nav-btn {
+    width: 100%;
+  }
+
+  .em-Vision-info .em-ventures-join.btn,
+  .em-Vision-info .em-ventures-info.btn {
+    height: 52px;
+  }
+
+  .nav-list {
+    row-gap: 12px;
+    padding: 0;
+  }
+
+  .nav-list .nav-item {
+    padding: 27px 0;
+  }
+
   .em-powerWoman-events-title h1 {
     margin: auto;
     width: 275px;
@@ -507,11 +534,6 @@
 
   .em-Events-sumary {
     flex-wrap: wrap;
-  }
-
-  .endPage {
-    flex-direction: column;
-    padding: 5px;
   }
 
   /* --------------------------W479 Activities Page---------------------- */
