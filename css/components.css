@@ -53,10 +53,12 @@
 
 .header-menu-item:hover > p {
   color: #000000;
-  text-decoration: underline;
+  text-decoration: underline 1px;
+  text-underline-offset: 5px;
 }
 
 .header-menu-item:hover .header-submenu-list {
+  margin-top:6px;
   display: flex;
   flex-direction: column;
   padding: 4px;
@@ -286,11 +288,28 @@
 .banner .em-ventures-join.btn {
   font-size: var(--font-size-normal-text);
   text-align: center;
-
+  padding: 20px 10px;
+  margin-right: 5%;
   background-color: var(--color-purple);
   border-radius: 15px;
-  width: 55%;
-  height: 100%;
+}
+
+.banner .em-ventures-join.btn > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner .em-ventures-join.btn > div > i {
+  font-size: 300;
+  margin-left: 10px;
+}
+
+.banner .em-ventures-info.btn {
+  text-align: center;
+  padding: 20px 38px;
+  border: 0.7px solid white;
+  border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -532,7 +551,6 @@
 }
 
 .signup-wrap {
-  margin: 120px 0;
   width: 100%;
   background-color: var(--color-dark-purple);
   display: flex;
@@ -747,22 +765,34 @@
 }
 
 .input-Email {
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.emailBg .img-wrapper {
+  height: 50px;
+  width: 50px;
+  background: linear-gradient(267.74deg, #6359d9 -4.45%, #b147f8 105.31%);
+  border-radius: 0px 6px 6px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .emailBg img {
-  width: 50px;
-  height: 50px;
+  height: 25%;
+  width: auto;
   border-radius: 0px 6px 6px 0px;
-  position: absolute;
-  right: 0;
+  object-fit: contain;
 }
 
 .emailBg input {
   padding: 10px;
   height: 50px;
-  width: 100%;
-  border-radius: 0px 6px 6px 0px;
+  flex:1;
+  border:none;
+  border-radius: 6px 0px 0px 6px;
 }
 
 .emailHint {
@@ -863,8 +893,6 @@
     font-size: 40px;
   }
 
-
-
   .retail-page .benefit-list .benefit-item {
     flex: 1;
   }
@@ -943,12 +971,11 @@
   }
 
   /* EM-VOICE */
-  .em-voice .img-warp img , 
+  .em-voice .img-warp img,
   .em-ventures .img-warp img {
     width: 80%;
     height: auto;
   }
-
 
   /* SIGN-UP */
   .signup-wrap {
@@ -1017,8 +1044,6 @@
     width: 80%;
     height: auto;
   }
-
-
 }
 
 @media screen and (max-width: 479px) {

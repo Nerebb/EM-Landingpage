@@ -143,7 +143,7 @@ export const footerTem = `
         id="inputEmail"
         placeholder="Email address"
       />
-      <img src="../images/moveForwardIcon.png" alt="Submit" />
+      <div class="img-wrapper"><img src="../images/ArrwSubmit.png" alt="" /></div>
     </div>
     <p class="emailHint">
       Đăng ký để nhận thông báo từ EM-Ventures để cập nhật những tin tức

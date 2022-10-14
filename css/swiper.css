@@ -67,7 +67,7 @@
 .operator .operator-item {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 343px;
   width: 285px;
   padding: 25px 10px;
   background-color: #292452;
@@ -96,15 +96,12 @@
 .operator .operator-item .item-text-wrap {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
-.operator .operator-item .item-text-wrap > * {
-  margin-top: 12px;
-}
-
 .operator .operator-item .operator-contact-icon {
-  margin-top: 30px;
+  margin-bottom: 25px;
 }
 
 .operator .operator-contact-icon {

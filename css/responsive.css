@@ -10,8 +10,6 @@
   }
 
   .banner .nav-btn {
-    width: 40%;
-    height: 57px;
     margin-top: 18px;
   }
 
@@ -31,6 +29,14 @@
   .banner-info-right div {
     width: 150px;
     height: 200px;
+  }
+
+  .banner .em-ventures-join.btn {
+    padding: 15px 10px;
+  }
+
+  .banner .em-ventures-info.btn {
+    padding: 15px 38px;
   }
 
   .em-powerWoman {
@@ -113,7 +119,7 @@
     height: 180px;
   }
 
-/* --------------------------------------W1367 em-innovation--------------------------------------------- */
+  /* --------------------------------------W1367 em-innovation--------------------------------------------- */
 
   .banner-EM-title .em-ventures-join.btn {
     width: 32%;
@@ -155,7 +161,6 @@
   }
 
   .banner .nav-btn {
-    width: 50%;
     height: 40px;
   }
 
@@ -165,6 +170,14 @@
 
   .nav-list .nav-description {
     line-height: 18px;
+  }
+
+  .banner .em-ventures-join.btn {
+    padding: 12px 10px;
+  }
+
+  .banner .em-ventures-info.btn {
+    padding: 12px 38px;
   }
 
   .em-powerWoman-title h1 {
@@ -286,24 +299,21 @@
     display: none;
   }
 
-   /* --------------------------------------W991 em-innovation--------------------------------------------- */
-
+  /* --------------------------------------W991 em-innovation--------------------------------------------- */
 
   .imgslider .slide-title {
-    font-size: var(--font-size-normal-menu)16px;
+    font-size: var(--font-size-normal-menu) 16px;
   }
 
   .banner-info-left .banner-title {
     margin: 18px 0;
   }
-
 }
 @media screen and (max-width: 769px) {
   :root {
     --font-size-normal-text: 12.5px;
     --font-size-small-title: 22px;
     --font-size-medium-title: 24px;
-
   }
 
   .idea .swiper-button-prev,
@@ -311,16 +321,18 @@
     display: none;
   }
 
-
   .banner {
     width: 510px;
     margin: auto;
   }
 
   .banner .nav-btn {
-    width: 70%;
     margin-top: 30px;
-    
+  }
+
+  .banner-info {
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
 
   .banner-bg-img {
@@ -329,8 +341,6 @@
     right: 0;
     background-position: right bottom;
   }
-
-
 
   .banner-EM-title .em-ventures-join.btn {
     width: 40%;
@@ -358,9 +368,16 @@
     border-radius: 8px;
   }
 
-  .event-Wrapper .event-text {
-    padding-left: 18px;
-    height: 35px;
+  .operator .swiper-button-next {
+    height: 38px;
+    width: 38px;
+    right: -10px;
+  }
+
+  .operator .swiper-button-prev {
+    height: 38px;
+    width: 38px;
+    left: -10px;
   }
 
   .em-powerWoman-events {
@@ -409,17 +426,15 @@
     height: 180px;
   }
 
-
-/* --------------------------W769 em-innovation---------------------- */
+  /* --------------------------W769 em-innovation---------------------- */
 
   /* BANNER */
-
 
   .idea .swiper-button-next {
     top: 40%;
     right: 40px;
   }
-  
+
   .idea .swiper-button-prev {
     top: 40%;
     left: 40px;
@@ -428,7 +443,6 @@
   .banner-EM-title .em-ventures-join.btn {
     width: 36%;
   }
-
 }
 
 @media screen and (max-width: 491px) {
@@ -436,30 +450,25 @@
     max-width: 350px;
     padding: 0 0;
   }
-  
-  .banner-info-left .banner-img,
-  .banner-info-right {
-    flex-wrap: wrap;
-    justify-content: space-between;
+  .banner .em-ventures-join.btn,
+  .banner .em-ventures-info.btn {
+    padding: 10px 20px;
   }
-  .banner-bg-img {
-    height: 45%;
-  }
-  
+
   .banner {
     width: 100%;
   }
 
-  
   .banner-info-left .banner-img,
   .banner-info-right {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   .banner-bg-img {
-    height: 45%;
+    height: 46.5%;
   }
-  
+
   .banner > p {
     width: 100%;
   }
@@ -472,32 +481,24 @@
     margin-bottom: 25px;
   }
 
-
-
-
-  .operator .swiper-button-next {
-    height: 40px;
-    width: 40px;
-    right: -15px;
-  }
-
-  .operator .swiper-button-prev {
-    height: 40px;
-    width: 40px;
-    left: -15px;
-  }
-
-
-
   .banner-info-left .bg-img,
   .banner-info-right div {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-right: 0px;
+    width: 165px;
+    height: 198px;
   }
 
   .em-powerWoman-events-title h1 {
     margin: auto;
     width: 275px;
+  }
+
+  .em-Vision-info .em-ventures-join.btn,
+  .em-Vision-info .em-ventures-info.btn {
+    width: 49%;
+    height: 45px;
+    border-radius: 12px;
   }
 
   .em-powerWoman-events-title {
