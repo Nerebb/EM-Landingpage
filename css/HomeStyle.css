@@ -209,6 +209,7 @@
   color: white;
   text-align: center;
 
+  width: 100%;
   padding-top: 12vw;
   margin: auto;
 }
@@ -261,7 +262,6 @@
 .em-Vision-sumary {
   width: 45%;
   height: 100%;
-  margin: auto;
 }
 
 .em-Vision-text {
@@ -295,16 +295,17 @@
 
 .em-Vision-text .closupText p:first-child {
   text-align: left;
+  font-size: var(--font-size-big-menu);
   font-weight: 700;
   margin-bottom: 5px;
 }
 
 .em-Vision-text .closupText p:last-child {
-  color: var(--color-dark-gray);
+  color: white;
 }
 
 .em-Vision-info .nav-btn {
-  width: 90%;
+  width: 407px;
   padding-top: 15%;
   display: flex;
   justify-content: space-between;
@@ -332,6 +333,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.em-Vision-info .em-ventures-join.btn img {
+  margin-top: 3px;
+  margin-left: 3px;
 }
 
 /* ----------------------EM-Inpsiraton------------------------------ */
@@ -503,15 +509,14 @@
 }
 
 /* ----------------------EM-Parner---------------------------- */
+.em-powerWoman-partner-w991 {
+  display: none;
+}
 
 .em-powerWoman-partner {
   color: white;
 
   padding-top: 8%;
-}
-
-.em-powerWoman-partner-w991 {
-  display: none;
 }
 
 .em-Partner-title {
@@ -522,7 +527,8 @@
   margin: 6% 0 4%;
 }
 
-.em-Partner-sumary h1 {
+/* ----------------------EM-Parner-DISPLAY:FLEX---------------------------- */
+/* .em-Partner-sumary h1 {
   font-size: var(--font-size-normal-text);
   height: 75px;
   padding: 20px 5px;
@@ -548,7 +554,7 @@
 }
 
 .em-Partner-sumary .goverment p {
-  color: var(--color-dark-gray);
+  color: white;
   font-size: var(--font-size-menu);
 }
 
@@ -608,6 +614,94 @@
   height: 65%;
   object-fit: contain;
   object-position: center;
+} */
+
+/* ----------------------EM-Parner-DISPLAY:GRID---------------------------- */
+.em-Partner-sumary h1 {
+  width: 100%;
+  text-align: center;
+  font-size: var(--font-size-normal-text);
+  padding: 20px 5px;
+}
+
+.grid {
+  width: 95%;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 75px auto;
+}
+
+.em-powerWoman-partner {
+  width: 100%;
+  height: auto;
+}
+
+.em-powerWoman-partner {
+  width: 100%;
+}
+
+.em-Partner-sumary {
+  display: grid;
+  grid-template-columns: 1.2fr auto 1fr auto 1fr auto 1fr auto 2fr;
+  justify-items: center;
+}
+
+.grid.centerline {
+  width: 2px;
+  background-color: var(--color-dark-gray);
+}
+
+.grid.goverment {
+  width: 90%;
+  grid-template-rows: auto auto;
+}
+
+.govermentText h1 {
+  text-align: left;
+  font-size: var(--font-size-small-title);
+}
+
+.em-Partner-sumary .img-Wrapper {
+  width: 80%;
+  height: 100px;
+  border-radius: 18px;
+  background: var(--background-PurpleGrad);
+  margin-bottom: 5%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.em-Partner-sumary .img-Wrapper img {
+  width: 75%;
+  height: 65%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.em-Partner-sumary .goverment img {
+  padding-top: 5%;
+  width: 90%;
+  object-fit: contain;
+}
+
+.grid.ambassador {
+  grid-template-rows: 75px 1fr 1fr 1fr;
+}
+
+.grid.partnerAlong {
+  width: 90%;
+}
+
+.partnerAlong-totalImg {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-template-rows: auto;
+}
+
+.partnerAlong-totalImg .img-Wrapper {
+  width: 90%;
 }
 
 /* ----------------------EM-EVENTS------------------------------ */

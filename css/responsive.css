@@ -189,7 +189,7 @@
   }
 
   .em-Vision-sumary {
-    width: 90%;
+    width: 100%;
   }
 
   .em-Vision-text .img-Wrapper {
@@ -432,6 +432,7 @@
 }
 
 @media screen and (max-width: 491px) {
+
   .mwidth {
     max-width: 350px;
     padding: 0 0;
@@ -472,27 +473,38 @@
     margin-bottom: 25px;
   }
 
-
-
-
   .operator .swiper-button-next {
-    height: 40px;
-    width: 40px;
-    right: -15px;
+    height: 38px;
+    width: 38px;
+    right: -10px;
   }
 
   .operator .swiper-button-prev {
-    height: 40px;
-    width: 40px;
-    left: -15px;
+    height: 38px;
+    width: 38px;
+    left: -10px;
   }
-
-
 
   .banner-info-left .bg-img,
   .banner-info-right div {
+    width: 165px;
+    height: 190px;
     margin-bottom: 30px;
     margin-right: 0px;
+  }
+
+  .banner-info-left .bg-img > p {
+    font-size: 18px;
+    bottom: 5%;
+  }
+
+  .em-Vision-info .nav-btn {
+    width: 100%;
+  }
+
+  .em-Vision-info .em-ventures-join.btn,
+  .em-Vision-info .em-ventures-info.btn {
+  height: 52px;
   }
 
   .em-powerWoman-events-title h1 {
