@@ -34,7 +34,6 @@
   background-color: white;
   padding: 8px;
   border-radius: 5px;
-  box-shadow: 0 0 2px 1px rgba(128, 128, 128, 0.2);
 }
 
 .mobile-submenu-list {
@@ -45,7 +44,6 @@
 .mobile-submenu-item {
   background-color: #04004d20;
   padding: 8px;
-  border: 0.1px solid rgba(0, 0, 0, 0.1);
 }
 
 .mobile-submenu-item:last-child {

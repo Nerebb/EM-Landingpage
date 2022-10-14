@@ -9,7 +9,7 @@ export const headerTem =
     <ul class="header-menu-list ">
       <li class="header-menu-item">
         <p>EM-Ventures</p>
-        <ul class="header-submenu-list ">
+        <ul class="header-submenu-list hide  ">
           <li class="header-submenu-item">
             <a href="./about-us.html"> Về chúng tôi</a>
           </li>
@@ -37,7 +37,7 @@ export const headerTem =
       </li>
       <li class="header-menu-item">
         <p>Hoạt động</p>
-        <ul class="header-submenu-list ">
+        <ul class="header-submenu-list hide ">
           <li class="header-submenu-item">
             <a href="./em-trainning.html"> EM-Trainning </a>
           </li>
@@ -68,7 +68,7 @@ export const headerTem =
       </li>
       <li class="header-menu-item">
         <p>Liên kết</p>
-        <ul class="header-submenu-list ">
+        <ul class="header-submenu-list hide ">
           <li class="header-submenu-item">
             <a href=""> Liên hệ</a>
           </li>
