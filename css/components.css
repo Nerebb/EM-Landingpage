@@ -330,7 +330,6 @@
 
 .em-wrap {
   height: 100%;
-  margin-top: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -929,10 +928,6 @@
 
   .em-container {
     width: 100%;
-  }
-
-  .em-wrap {
-    margin-top: 40px;
   }
 
   .em-wrap .em-container {
