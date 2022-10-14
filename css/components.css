@@ -59,7 +59,7 @@
 }
 
 .header-menu-item:hover .header-submenu-list {
-  margin-top:6px;
+  margin-top: 6px;
   display: flex;
   flex-direction: column;
   padding: 4px;
@@ -163,7 +163,6 @@
   text-align: left;
   width: 100%;
   color: white;
-  margin-top: 16px;
   position: relative;
 }
 
@@ -318,8 +317,7 @@
 }
 
 .banner-EM-title .em-ventures-join.btn {
-  width: 20%;
-  height: 57px;
+  width: 27%;
 }
 /* --------------ACITIVITIEs----------- */
 .em-activites-container {
@@ -351,6 +349,7 @@
 
 /* TEXT-WRAP */
 .em-wrap .title {
+  text-align: left;
   background: var(--title-purple);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -791,8 +790,8 @@
 .emailBg input {
   padding: 10px;
   height: 50px;
-  flex:1;
-  border:none;
+  flex: 1;
+  border: none;
   border-radius: 6px 0px 0px 6px;
 }
 
@@ -894,11 +893,7 @@
     font-size: 40px;
   }
 
-  .retail-page .benefit-list .benefit-item {
-    flex: 1;
-  }
-
-  .retail-page .benefit-item:not(:first-child) {
+  .retail-page .benefit-item {
     margin-left: 26px;
   }
 }
@@ -918,6 +913,11 @@
 
   .em-wrap {
     flex-wrap: wrap;
+  }
+
+  .em-wrap .title {
+    width: 100%;
+    text-align: center;
   }
 
   .em-wrap .img-wrap {
@@ -1013,6 +1013,10 @@
     flex: none;
     margin: 32px 0 0 0;
   }
+
+  .benefit-item h1 {
+    font-size: 28px;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -1067,6 +1071,10 @@
   .em-brands .brands-list .item {
     width: 95%;
   }
+
+  .benefit-item h1 {
+    font-size: 24px;
+  }
 }
 
 /* -------------REPONSIVE-FOOTER-----------------------*/
@@ -1104,7 +1112,7 @@
   }
 
   .page-container {
-    padding-top: 40px;
+    margin-top: 40px;
   }
 
   .footerColumn {

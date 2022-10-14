@@ -1,5 +1,5 @@
 // -------------------------- HEADER & FOOTER -------------------------------------
-export const headerTem = 
+export const headerTem =
 `<div class="header-wrap">
 <div class="header-container mwidth">
   <a href="./home.html" class="logo-wrap">
@@ -678,8 +678,10 @@ export function renderBanner(title, descript) {
     <h1>${title}</h1>
     <p>${descript}</p>
     <div class="em-ventures-join btn hoverBrightness">
-      <p>Gia nhập EM-VENTURES</p>
-      <img src="../images/ArrowRight.png" alt="" />
+    <div>
+    <p>Gia nhập EM-VENTURES</p>
+    <i class="fa-sharp fa-solid fa-arrow-right"></i>
+  </div>
     </div>
   </div>
   <div class="banner-info">
