@@ -32,7 +32,16 @@
     width: 150px;
     height: 200px;
   }
+  .nav-list {
+    padding: 0 40px;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
 
+  .nav-list .nav-item {
+    padding: 40px;
+  }
+  
   .em-powerWoman {
     padding-top: 8vw;
   }
@@ -129,6 +138,15 @@
     --font-size-big-title: 40px;
   }
 
+  .nav-list {
+    padding: 0 ;
+
+  }
+
+  .nav-list .nav-item {
+    padding: 40px 14px;
+  }
+
   .mwidth {
     max-width: 700px;
     padding: 0 50px;
@@ -159,9 +177,7 @@
     height: 40px;
   }
 
-  .nav-list .nav-item {
-    width: 49%;
-  }
+
 
   .nav-list .nav-description {
     line-height: 18px;

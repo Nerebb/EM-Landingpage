@@ -39,6 +39,7 @@
 
 .header-content-wrap {
   display: flex;
+  align-items: center;
 }
 
 .header-menu-list {

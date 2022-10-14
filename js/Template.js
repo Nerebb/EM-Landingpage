@@ -97,8 +97,7 @@ export const headerTem =
     <button class="download_btn">
       <p>tải app</p>
     </button>
-  </div>
-  <div class="mobile-menu-icon-wrap hide" >
+    <div class="mobile-menu-icon-wrap hide" >
     <i class="fa-solid fa-bars mobile-menu-icon" onclick="ShowMobileMenu()"></i>
     <div class="mobile-menu hide-menu">
       <ul class="mobile-menu-list mwidth">
@@ -201,6 +200,8 @@ export const headerTem =
       </ul>
     </div>
   </div>
+  </div>
+
 </div>
 </div>`
 

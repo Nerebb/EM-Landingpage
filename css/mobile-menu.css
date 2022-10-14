@@ -8,6 +8,7 @@
 
 .mobile-menu-icon {
   position: relative;
+  margin-left: 16px;
 }
 
 .mobile-menu{
@@ -22,10 +23,11 @@
   transition: all 0.5s ease;
 }
 
-.mobile-menu-list {
-  margin: auto;
-
+.mobile-menu-icon-wrap i {
+  position: relative;
+  color: white;
 }
+
 
 .mobile-menu-item {
   display: flex;
