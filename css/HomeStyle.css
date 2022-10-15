@@ -7,7 +7,7 @@
 }
 
 .banner > h1 {
-  margin-top: 25px;
+  margin: 25px 0;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -31,44 +31,8 @@
   margin-top: 16px;
 }
 
-.banner .nav-btn {
-  font-size: var(--font-size-menu);
-
-  width: 35%;
-  height: 57px;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.banner .em-ventures-join.btn {
-  text-align: center;
-
-  background-color: var(--color-purple);
-  border-radius: 15px;
-  width: 55%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.banner .em-ventures-info.btn {
-  text-align: center;
-
-  width: 40%;
-  height: 100%;
-  border: 0.7px solid white;
-  border-radius: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 /* ----------------------em-powerWoman----------------------- */
 .em-powerWoman {
-  padding-top: 12vw;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -76,31 +40,25 @@
 
 .em-powerWoman-title {
   text-align: center;
-  margin-bottom: 10vw;
+  margin-bottom: 8vw;
 }
 
 .em-powerWoman-title h2 {
   color: white;
   font-size: var(--font-size-big-menu);
-  line-height: 24px;
 }
 
 .em-powerWoman-title h1 {
   text-align: center;
-  margin-top: 16px;
-  margin-bottom: 32px;
+  margin: 20px 0;
 
   font-size: var(--font-size-big-title);
-  line-height: 56px;
 }
 
 .em-powerWoman-title h3 {
   color: white;
   font-size: var(--font-size-normal-text);
-  line-height: 18px;
 }
-
-
 
 .nav-list {
   display: grid;
@@ -114,8 +72,8 @@
   padding: 40px 14px;
   display: flex;
   flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav-list .nav-description {
@@ -131,19 +89,24 @@
 
 .nav-list .nav-description > img {
   padding-bottom: 8px;
-  border-bottom: 0.2px solid #FFFFFF50;
+  border-bottom: 0.2px solid #ffffff50;
 }
 
 .nav-description .nav-item-img-wrap {
   height: 80px;
   width: 90px;
-  background: linear-gradient(179.39deg, rgba(255, 255, 255, 0.5) -2.68%, rgba(34, 31, 31, 0) 139.8%);
-border: 0.43px solid #FFFFFF;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-top: 8px;
-margin-bottom: 12px;
+  background: linear-gradient(
+    179.39deg,
+    rgba(255, 255, 255, 0.5) -2.68%,
+    rgba(34, 31, 31, 0) 139.8%
+  );
+  border-radius: 3px;
+  border: 0.43px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  margin-bottom: 12px;
 }
 
 .nav-list .nav-description h1 {
@@ -218,11 +181,6 @@ margin-bottom: 12px;
 /* ----------------------Em-Power-Visions------------------------------ */
 .em-powerWoman-Vision {
   color: white;
-  text-align: center;
-
-  width: 100%;
-  padding-top: 12vw;
-  margin: auto;
 }
 
 .em-powerWoman-Vision h1,
@@ -236,6 +194,8 @@ margin-bottom: 12px;
 }
 
 .em-powerWoman-Vision p {
+  line-height: 100%;
+  margin-right: 5px;
   font-size: var(--font-size-normal-text);
 }
 
@@ -334,6 +294,10 @@ margin-bottom: 12px;
   align-items: center;
 }
 
+.em-Vision-info .em-ventures-join.btn span {
+  margin-right: 5px;
+}
+
 .em-Vision-info .em-ventures-info.btn {
   color: white;
 
@@ -356,7 +320,7 @@ margin-bottom: 12px;
 .em-Inspi-title {
   text-align: center;
   line-height: 54px;
-  padding: 5%;
+  margin-bottom: 5%;
 }
 
 .em-Inspi-title h1 {
@@ -390,6 +354,7 @@ margin-bottom: 12px;
 }
 
 .em-Inspi-sumary {
+  text-align: justify;
   width: 40%;
   padding: 30px 0;
   display: flex;
@@ -526,8 +491,6 @@ margin-bottom: 12px;
 
 .em-powerWoman-partner {
   color: white;
-
-  padding-top: 8%;
 }
 
 .em-Partner-title {
@@ -535,7 +498,7 @@ margin-bottom: 12px;
   font-weight: 500;
   text-align: center;
 
-  margin: 6% 0 4%;
+  margin: 0 0 5%;
 }
 
 /* ----------------------EM-Parner-DISPLAY:FLEX---------------------------- */
@@ -717,15 +680,9 @@ margin-bottom: 12px;
 
 /* ----------------------EM-EVENTS------------------------------ */
 
-.em-powerWoman-events {
-  width: 100%;
-  height: 1250px;
-}
-
 .em-powerWoman-events-title {
   width: 100%;
-  height: 15%;
-  padding-top: 3%;
+  margin-bottom: 5%;
   text-align: center;
 }
 
@@ -749,13 +706,14 @@ margin-bottom: 12px;
 }
 
 .em-Events-column {
+  padding: 0 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .em-Events-sumary .event-Wrapper {
-  width: 99%;
+  width: 100%;
   border-radius: 20px;
   margin-bottom: 20px;
   position: relative;
@@ -770,13 +728,9 @@ margin-bottom: 12px;
 .event-Wrapper .event-text {
   color: white;
   font-size: var(--font-size-normal-text);
-  padding-left: 25px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 
   width: 100%;
-  height: 52px;
+  height: 35px;
 
   display: flex;
   align-items: center;
@@ -786,6 +740,13 @@ margin-bottom: 12px;
   border-bottom-right-radius: 20px;
   position: absolute;
   bottom: 0;
+}
+
+.event-Wrapper .event-text p {
+  padding: 0 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .em-Events-info {
@@ -803,6 +764,11 @@ margin-bottom: 12px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.em-Events-info i {
+  font-size: var(--font-size-normal-text);
+  margin-left: 5px;
 }
 
 .em-powerWoman-partner-w769 {

@@ -1,6 +1,5 @@
 // -------------------------- HEADER & FOOTER -------------------------------------
-export const headerTem = 
-`<div class="header-wrap">
+export const headerTem = `<div class="header-wrap">
 <div class="header-container mwidth">
   <a href="./home.html" class="logo-wrap">
     <img src="../images/logo.png" alt="">
@@ -203,7 +202,7 @@ export const headerTem =
   </div>
 
 </div>
-</div>`
+</div>`;
 
 export const footerTem = `
 <footer class="footer-wrap mwidth">
@@ -247,7 +246,7 @@ export const footerTem = `
         id="inputEmail"
         placeholder="Email address"
       />
-      <img src="../images/moveForwardIcon.png" alt="Submit" />
+      <div class="img-wrapper"><img src="../images/ArrwSubmit.png" alt="" /></div>
     </div>
     <p class="emailHint">
       Đăng ký để nhận thông báo từ EM-Ventures để cập nhật những tin tức
@@ -671,18 +670,51 @@ export function renderList(title, arr) {
 }
 
 export function renderBanner(title, descript) {
-  var tem = `<section class="banner em-page">
+  var temTitle = `<section class="banner em-page">
   <div class="banner-bg-img"></div>
   <h2>EM-Power Woman Ventures</h2>
   <div class="banner-EM-title">
     <h1>${title}</h1>
-    <p>${descript}</p>
-    <div class="em-ventures-join btn hoverBrightness">
-      <p>Gia nhập EM-VENTURES</p>
-      <img src="../images/ArrowRight.png" alt="" />
+    <p>${descript}</p>`;
+
+  var temButton = "";
+  if (title === "EM-BRANDS") {
+    temButton = `
+    <div class="nav-btn">
+      <div class="em-ventures-join btn hoverBrightness">
+        <div>
+          <p>KINH DOANH KHỞI NGHIỆP CÙNG EM-VENTURES</p>
+          <i class="fa-sharp fa-solid fa-arrow-right"></i>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="banner-info">
+  </div>`;
+  } else if (title === "EM-INNOVATION") {
+    temButton = `<div class="nav-btn">
+      <div class="em-ventures-join btn hoverBrightness">
+        <div>
+          <p>Gia nhập EM-VENTURES</p>
+          <i class="fa-sharp fa-solid fa-arrow-right"></i>
+        </div>
+      </div>
+      <div class="em-ventures-info btn hoverBrightness">
+      <span>Tìm hiểu thêm</span>
+      </div>
+  </div>`;
+  } else {
+    temButton = `
+    <div class="nav-btn">
+      <div class="em-ventures-join btn hoverBrightness">
+        <div>
+          <p>Gia nhập EM-VENTURES</p>
+        <i class="fa-sharp fa-solid fa-arrow-right"></i>
+       </div>
+      </div>
+    </div>
+  </div>`;
+  }
+
+  var temBannerInfo = `<div class="banner-info">
     <div class="banner-info-left">
       <h1 class="banner-title">TIN TỨC CỘNG ĐỒNG</h1>
       <div class="banner-img">
@@ -713,5 +745,7 @@ export function renderBanner(title, descript) {
     </div>
   </div>
 </section>`;
-document.querySelector(".banner-wrapper").innerHTML = tem;
+
+  document.querySelector(".banner-wrapper").innerHTML =
+    temTitle + temButton + temBannerInfo;
 }

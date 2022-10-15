@@ -13,14 +13,20 @@
     @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
   </style>
 
+    <link rel="stylesheet" href="../css/Default.css" />
+    <link rel="stylesheet" href="../css/ActivitiesStyle.css" />
+    <link rel="stylesheet" href="../css/HomeStyle.css" />
+    <link rel="stylesheet" href="../css/components.css" />
+    <link rel="stylesheet" href="../css/swiper.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+
+
   <link rel="stylesheet" href="../css/Default.css" />
   <link rel="stylesheet" href="../css/ActivitiesStyle.css" />
   <link rel="stylesheet" href="../css/HomeStyle.css" />
   <link rel="stylesheet" href="../css/components.css" />
   <link rel="stylesheet" href="../css/swiper.css" />
   <link rel="stylesheet" href="../css/responsive.css" />
-
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
   <script src="../js/StickyHeader.js" defer></script>
 
@@ -30,32 +36,37 @@
     document.querySelector(".header").innerHTML = headerTem;
     document.querySelector(".footer").innerHTML = footerTem;
 
-    document.querySelector(".signup").innerHTML = signupTem;
-  </script>
-  <script src="../js/StickyHeader.js" defer></script>
-  <script src="../js/ShowMobileMenu.js" defer></script>
-  <link rel="stylesheet" href="../css/mobile-menu.css">
-</head>
-
-<body>
-  <div class="header"></div>
-  <section class="page-container mwidth">
-    <section class="banner">
-      <div class="banner-bg-img"></div>
-      <h2>EM-Power Woman Ventures</h2>
-      <h1>
-        TỰ CHỦ LÀ MỘT LỰA CHỌN <br />
-        ĐỂ BẠN HẠNH PHÚC
-      </h1>
-      <p>
-        Dự án dành cho phụ nữ khắp Việt Nam, tạo động lực và truyền cảm hứng
-        sống tích cực; để họ tôn trọng, yêu thương bản thân, tạo dựng cuộc
-        sống ổn định và cùng tạo nên giá trị tốt đẹp cho cộng đồng.
-      </p>
-      <div class="nav-btn">
-        <div class="em-ventures-join btn hoverBrightness">
-          <p>Gia nhập EM-VENTURES</p>
-          <img src="../images/ArrowRight.png" alt="" />
+      document.querySelector(".signup").innerHTML = signupTem;
+    </script>
+    <script src="../js/StickyHeader.js" defer></script>
+    <script src="../js/ShowMobileMenu.js" defer></script>
+    <link rel="stylesheet" href="../css/mobile-menu.css">
+  </head>
+  <body>
+    <div class="header"></div>
+    <section class="page-container mwidth">
+      <section class="banner">
+        <div class="banner-bg-img"></div>
+        <h2>EM-Power Woman Ventures</h2>
+        <h1>
+          TỰ CHỦ LÀ MỘT LỰA CHỌN <br />
+          ĐỂ BẠN HẠNH PHÚC
+        </h1>
+        <p>
+          Dự án dành cho phụ nữ khắp Việt Nam, tạo động lực và truyền cảm hứng
+          sống tích cực; để họ tôn trọng, yêu thương bản thân, tạo dựng cuộc
+          sống ổn định và cùng tạo nên giá trị tốt đẹp cho cộng đồng.
+        </p>
+        <div class="nav-btn">
+          <div class="em-ventures-join btn hoverBrightness">
+            <div>
+              <p>Gia nhập EM-VENTURES</p>
+              <i class="fa-sharp fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="em-ventures-info btn hoverBrightness">
+            <span>Tìm hiểu thêm</span>
+          </div>
         </div>
         <div class="em-ventures-info btn hoverBrightness">
           <span>Tìm hiểu thêm</span>
@@ -79,16 +90,12 @@
             </div>
           </div>
         </div>
-        <div class="banner-info-right">
-          <div class="bg-img1">
-            <img src="../images/LOGO_PDA_Healthcare&Beauty.png" alt="" />
-          </div>
-          <div class="bg-img2">
-            <img src="../images/JRealver.png" alt="" />
-          </div>
-          <div class="bg-img3">
-            <img src="../images/UGETHERlogo.png" alt="" />
-          </div>
+      </section>
+      <section class="em-powerWoman section-title">
+        <div class="em-powerWoman-title">
+          <h2>TỔ CHỨC CỘNG ĐỒNG</h2>
+          <h1 class="purpleGrad">EM-Power Woman Ventures</h1>
+          <h3>“ Cảm hứng sống đến từ chính mình ”</h3>
         </div>
       </div>
     </section>
@@ -232,7 +239,7 @@
         </div>
       </div>
     </section>
-    <section class="em-powerWoman-Vision">
+    <section class="em-powerWoman-Vision section-title">
       <div class="em-Vision-title">
         <h1>VỀ EM-POWER WOMAN VENTURES</h1>
         <h2 class="purpleGrad">Tầm nhìn và sứ mệnh</h2>
@@ -291,7 +298,7 @@
         </div>
       </div>
     </section>
-    <section class="em-powerWoman-inspi">
+    <section class="em-powerWoman-inspi section-title">
       <div class="em-Inspi-title">
         <h1>CẢM HỨNG SỐNG ĐẾN TỪ CHÍNH MÌNH</h1>
         <h2>EM-Power Woman Ventures</h2>
@@ -316,7 +323,7 @@
         </div>
       </div>
     </section>
-    <section class="operator-container">
+    <section class="operator-container section-title">
       <div class="title">
         <h1 class="purpleGrad">CẢM HỨNG SỐNG ĐẾN TỪ CHÍNH MÌNH</h1>
         <h1>EM-Power Woman Ventures</h1>
@@ -511,7 +518,7 @@
         </div>
       </section> -->
     <!-- ----------------------EM-Parner-DISPLAY:GRID---------------------------- -->
-    <section class="em-powerWoman-partner">
+    <section class="em-powerWoman-partner section-title">
       <div class="em-Partner-title">ĐỐI TÁC CHIẾN LƯỢC</div>
       <div class="em-Partner-sumary">
         <div class="grid goverment">
@@ -644,7 +651,7 @@
       </section>
       <section class="em-powerWoman-quotes"></section>
     </section>
-    <section class="em-powerWoman-events">
+    <section class="em-powerWoman-events section-title">
       <div class="em-powerWoman-events-title">
         <h2>SỰ KIỆN CỦA EM-VENTURES</h2>
         <h1 class="purpleGrad">Những hoạt động cộng đồng</h1>
@@ -686,9 +693,9 @@
         <img src="../images/Arrowright3.png" alt="" />
       </div>
     </section>
-    <section class="signup"></section>
+    <section class="signup section-title"></section>
   </section>
-  <footer class="footer"></footer>
+  <footer class="footer section-title"></footer>
 </body>
 
 </html>

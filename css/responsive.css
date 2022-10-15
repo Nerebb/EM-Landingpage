@@ -10,8 +10,6 @@
   }
 
   .banner .nav-btn {
-    width: 40%;
-    height: 57px;
     margin-top: 18px;
   }
 
@@ -41,9 +39,13 @@
   .nav-list .nav-item {
     padding: 40px;
   }
-  
-  .em-powerWoman {
-    padding-top: 8vw;
+
+  .banner .em-ventures-join.btn {
+    padding: 15px 10px;
+  }
+
+  .banner .em-ventures-info.btn {
+    padding: 15px 38px;
   }
 
   .em-Inspi-sumary {
@@ -86,18 +88,10 @@
     padding: 15px 5px;
   }
 
-  .em-powerWoman-events {
-    height: 950px;
-  }
-
   .em-powerWoman-quotes > img:first-child,
   .em-powerWoman-quotes > img:last-child {
     width: 140px;
     height: 140px;
-  }
-
-  .quotes-Container {
-    height: 310px;
   }
 
   /* --------------------------------------Activities Page--------------------------------------------- */
@@ -122,10 +116,10 @@
     height: 180px;
   }
 
-/* --------------------------------------W1367 em-innovation--------------------------------------------- */
+  /* --------------------------------------W1367 em-innovation--------------------------------------------- */
 
   .banner-EM-title .em-ventures-join.btn {
-    width: 32%;
+    width: 40%;
   }
 }
 @media screen and (max-width: 991px) {
@@ -139,8 +133,7 @@
   }
 
   .nav-list {
-    padding: 0 ;
-
+    padding: 0;
   }
 
   .nav-list .nav-item {
@@ -173,14 +166,19 @@
   }
 
   .banner .nav-btn {
-    width: 50%;
     height: 40px;
   }
 
-
-
   .nav-list .nav-description {
     line-height: 18px;
+  }
+
+  .banner .em-ventures-join.btn {
+    padding: 12px 10px;
+  }
+
+  .banner .em-ventures-info.btn {
+    padding: 12px 38px;
   }
 
   .em-powerWoman-title h1 {
@@ -263,10 +261,6 @@
     height: 80px;
   }
 
-  .em-powerWoman-events {
-    height: 750px;
-  }
-
   .quotes-Container {
     height: 300px;
   }
@@ -302,24 +296,25 @@
     display: none;
   }
 
-   /* --------------------------------------W991 em-innovation--------------------------------------------- */
-
+  /* --------------------------------------W991 em-innovation--------------------------------------------- */
 
   .imgslider .slide-title {
-    font-size: var(--font-size-normal-menu)16px;
+    font-size: var(--font-size-normal-menu) 16px;
   }
 
   .banner-info-left .banner-title {
     margin: 18px 0;
   }
-
 }
 @media screen and (max-width: 769px) {
   :root {
     --font-size-normal-text: 12.5px;
     --font-size-small-title: 22px;
     --font-size-medium-title: 24px;
+  }
 
+  .mwidth {
+    max-width: 500px;
   }
 
   .idea .swiper-button-prev,
@@ -327,16 +322,18 @@
     display: none;
   }
 
-
   .banner {
     width: 510px;
     margin: auto;
   }
 
   .banner .nav-btn {
-    width: 70%;
     margin-top: 30px;
-    
+  }
+
+  .banner-info {
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
 
   .banner-bg-img {
@@ -346,19 +343,14 @@
     background-position: right bottom;
   }
 
-
-
   .banner-EM-title .em-ventures-join.btn {
     width: 40%;
-    height: 50px;
   }
 
   .nav-list {
-    justify-content: center;
-  }
-
-  .nav-list .nav-item {
-    width: 90%;
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+    padding: 0 120px;
   }
 
   .em-Partner-sumary .govermentText {
@@ -374,9 +366,16 @@
     border-radius: 8px;
   }
 
-  .event-Wrapper .event-text {
-    padding-left: 18px;
-    height: 35px;
+  .operator .swiper-button-next {
+    height: 38px;
+    width: 38px;
+    right: -10px;
+  }
+
+  .operator .swiper-button-prev {
+    height: 38px;
+    width: 38px;
+    left: -10px;
   }
 
   .em-powerWoman-events {
@@ -425,24 +424,18 @@
     height: 180px;
   }
 
-
-/* --------------------------W769 em-innovation---------------------- */
+  /* --------------------------W769 em-innovation---------------------- */
 
   /* BANNER */
-
 
   .idea .swiper-button-next {
     top: 40%;
     right: 40px;
   }
-  
+
   .idea .swiper-button-prev {
     top: 40%;
     left: 40px;
-  }
-
-  .banner-EM-title .em-ventures-join.btn {
-    width: 36%;
   }
 
 }
@@ -453,30 +446,35 @@
     max-width: 350px;
     padding: 0 0;
   }
-  
-  .banner-info-left .banner-img,
-  .banner-info-right {
-    flex-wrap: wrap;
-    justify-content: space-between;
+
+  .section-title {
+    margin-top: 50px;
   }
-  .banner-bg-img {
-    height: 45%;
+
+  .banner .em-ventures-join.btn,
+  .banner .em-ventures-info.btn {
+    padding: 10px 20px;
   }
-  
+
+  .banner-EM-title .em-ventures-join.btn {
+    width: 60%;
+    border-radius: 10px;
+  }
+
   .banner {
     width: 100%;
   }
 
-  
   .banner-info-left .banner-img,
   .banner-info-right {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   .banner-bg-img {
-    height: 45%;
+    height: 46.5%;
   }
-  
+
   .banner > p {
     width: 100%;
   }
@@ -489,24 +487,35 @@
     margin-bottom: 25px;
   }
 
-  .operator .swiper-button-next {
-    height: 38px;
-    width: 38px;
-    right: -10px;
-  }
-
-  .operator .swiper-button-prev {
-    height: 38px;
-    width: 38px;
-    left: -10px;
-  }
-
   .banner-info-left .bg-img,
   .banner-info-right div {
-    width: 165px;
-    height: 190px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-right: 0px;
+    width: 165px;
+    height: 198px;
+  }
+
+  .banner-info-left .bg-img > p {
+    font-size: 18px;
+    bottom: 5%;
+  }
+
+  .em-Vision-info .nav-btn {
+    width: 100%;
+  }
+
+  .em-Vision-info .em-ventures-join.btn,
+  .em-Vision-info .em-ventures-info.btn {
+    height: 52px;
+  }
+
+  .nav-list {
+    row-gap: 12px;
+    padding: 0;
+  }
+
+  .nav-list .nav-item {
+    padding: 27px 0;
   }
 
   .banner-info-left .bg-img > p {
@@ -528,17 +537,19 @@
     width: 275px;
   }
 
+  .em-Vision-info .em-ventures-join.btn,
+  .em-Vision-info .em-ventures-info.btn {
+    width: 49%;
+    height: 45px;
+    border-radius: 12px;
+  }
+
   .em-powerWoman-events-title {
     padding: 20px;
   }
 
   .em-Events-sumary {
     flex-wrap: wrap;
-  }
-
-  .endPage {
-    flex-direction: column;
-    padding: 5px;
   }
 
   /* --------------------------W479 Activities Page---------------------- */
