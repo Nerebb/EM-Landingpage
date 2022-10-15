@@ -271,10 +271,7 @@
 
 /* --------------BANNER-PAGE----------- */
 .banner-EM-title {
-  margin: auto;
   margin-top: 54px;
-  display: flex;
-  flex-direction: column;
 }
 
 .banner-EM-title > h1 {
@@ -284,6 +281,15 @@
 .banner-EM-title > p {
   font-size: var(--font-size-small-title);
   margin: 50px 0;
+}
+
+.banner .nav-btn {
+  line-height: 24px;
+  font-size: var(--font-size-menu);
+
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .banner .em-ventures-join.btn {
@@ -316,9 +322,7 @@
   justify-content: center;
 }
 
-.banner-EM-title .em-ventures-join.btn {
-  width: 27%;
-}
+
 /* --------------ACITIVITIEs----------- */
 .em-activites-container {
   height: 100%;

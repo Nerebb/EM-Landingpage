@@ -31,15 +31,6 @@
   margin-top: 16px;
 }
 
-.banner .nav-btn {
-  line-height: 24px;
-  font-size: var(--font-size-menu);
-
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-}
-
 /* ----------------------em-powerWoman----------------------- */
 .em-powerWoman {
   display: flex;
