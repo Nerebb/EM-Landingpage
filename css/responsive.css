@@ -441,6 +441,7 @@
 }
 
 @media screen and (max-width: 491px) {
+
   .mwidth {
     max-width: 350px;
     padding: 0 0;
@@ -515,6 +516,20 @@
 
   .nav-list .nav-item {
     padding: 27px 0;
+  }
+
+  .banner-info-left .bg-img > p {
+    font-size: 18px;
+    bottom: 5%;
+  }
+
+  .em-Vision-info .nav-btn {
+    width: 100%;
+  }
+
+  .em-Vision-info .em-ventures-join.btn,
+  .em-Vision-info .em-ventures-info.btn {
+  height: 52px;
   }
 
   .em-powerWoman-events-title h1 {
