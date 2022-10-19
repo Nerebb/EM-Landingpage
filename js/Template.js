@@ -749,3 +749,4 @@ export function renderBanner(title, descript) {
   document.querySelector(".banner-wrapper").innerHTML =
     temTitle + temButton + temBannerInfo;
 }
+
